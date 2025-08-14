@@ -16,3 +16,11 @@ kalisi_damage = 5
 # Dragon Stats
 dragon_hp = 300
 dragon_damage = 50
+
+
+while True:
+    print("1) wizard")
+    print("2) elf")
+    print("3) human")
+    print("4) Kalisi")
+    print("5) exit")
