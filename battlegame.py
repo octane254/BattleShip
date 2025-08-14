@@ -24,3 +24,26 @@ while True:
     print("3) human")
     print("4) Kalisi")
     print("5) exit")
+
+
+    character_choice = input("Choose your character: ").lower()
+    if character_choice == "wizard":
+        my_hp = wizard_hp
+        my_damage = wizard_damage
+        break
+    elif character_choice == "elf":
+        my_hp = elf_hp
+        my_damage = elf_damage
+        break
+    elif character_choice == "human":
+        my_hp = human_hp
+        my_damage = human_damage
+        break
+    elif character_choice == "kalisi":
+        my_hp = kalisi_hp
+        my_damage = kalisi_damage
+        break
+    elif character_choice == "exit":
+        exit()
+    else:
+        print("Not a Valid character")
