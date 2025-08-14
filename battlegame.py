@@ -47,3 +47,16 @@ while True:
         exit()
     else:
         print("Not a Valid character")
+
+
+while True:
+    dragon_hp = dragon_hp - my_damage
+    print(f"The {character_choice}, damaged the Dragon! hp left is {dragon_hp}")
+    if dragon_hp <= 0:
+        print("The dragon has lost the battle")
+        break
+    my_hp = my_hp - dragon_damage
+    print(f"The dragon damaged the {character_choice}! hp left is {my_hp}")
+    if my_hp <= 0:
+        print(f"{character_choice} has lost the battle")
+        break
